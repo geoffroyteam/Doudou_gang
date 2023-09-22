@@ -1,7 +1,7 @@
 #include <iostream>
-using namespace std; //ceci est un commentaire
+using namespace std;
 int main()
 {
-    std::cout <<"hello,World!"<<endl;
+    std::cout <<"hello,World!"<< endl;
     return 0;
 }
