@@ -14,4 +14,4 @@ int main()
     cout << "La chaine de caracteres a afficher est : " << chaine << "." << endl;
 
     return 0;
-}
+} 
