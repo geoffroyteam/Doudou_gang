@@ -4,35 +4,32 @@ using namespace std;
 
 int main()
 {
-
-    Personne flanby ("HOLLANDE","François",67,"Fonctionnaire");
-    Personne sego ("ROYAL","BLANQUER",68,"Ministre");
-    Personne jeanmimi ("HOLLANDE","François",57,"Ministre");
-    Personne aure ("DEVOS","Aurélia",42,"Magistrate");
+    Personne sarko ("SARKOZY","Nicolas",62,"Avocat");
+    Personne carlita ("BRUNI","Carla",50,"Mannequin");
+    Personne manu ("MACRON", "Emmanuel",40,"Banquier");
+    Personne bibi ("TROGNEUX","Brigitte",64,"Enseignante");
 
     cout << "On affiche les informations des 4 personnages avant l'utilisation des objets" << endl;
-    flanby.afficher();
-    sego.afficher();
-    jeanmimi.afficher();
-    aure.afficher();
+    sarko.afficher();
+    carlita.afficher();
+    manu.afficher();
+    bibi.afficher();
 
-    aure.changer_travail("Retraité");
-    flanby.changer_travail("Retraité");
-
-    sego.marier("BLANQUER");
+    carlita.marier("SARKOZY");
+    bibi.marier("MACRON");
+    manu.demenager("Palais de l'Elysée, 75000 PARIS");
+    bibi.demenager("Palais de l'Elysée, 75000 PARIS");
+    sarko.anniversaire();
+    sarko.changer_travail("Hommes d'Affaires");
+    carlita.changer_travail("Chanteuse");
+    manu.changer_travail("Président de la République");
+    bibi.changer_travail("Première Dame");
     
-    sego.anniversaire();
-    jeanmimi.anniversaire();
-
-    sego.marier("ROYAL");
-    aure.marier("DEVOS");
-
-
     cout << "On affiche les informations des 4 personnages après l'utilisation des objets" << endl;
-    flanby.afficher();
-    sego.afficher();
-    jeanmimi.afficher();
-    aure.afficher();
+    sarko.afficher();
+    carlita.afficher();
+    manu.afficher();
+    bibi.afficher();
 
 
 
